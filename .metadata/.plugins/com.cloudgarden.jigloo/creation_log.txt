@@ -1,0 +1,14 @@
+Creating elements for __2F_tour_2F_WebContent_2F_user_2F_page_2F_show_2E_jsp.java
+
+
+>>>  about to create class com.cloudgarden.jigloo.controls.OrderableGroup, constructor=public com.cloudgarden.jigloo.controls.OrderableGroup(org.eclipse.swt.widgets.Composite,int)
+
+    >>>  about to create class com.cloudgarden.jigloo.controls.OrderableGroup
+    <<< error creating class com.cloudgarden.jigloo.controls.OrderableGroup, java.lang.NoSuchMethodException: com.cloudgarden.jigloo.controls.OrderableGroup.<init>()
+<<< created class com.cloudgarden.jigloo.controls.OrderableGroup
+
+>>>  about to create class org.eclipse.swt.layout.FormData
+<<< created class org.eclipse.swt.layout.FormData
+
+>>>  about to create class org.eclipse.swt.layout.FormAttachment
+<<< created class org.eclipse.swt.layout.FormAttachment

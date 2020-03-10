@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <!-- 登陆 -->
+  <servlet>
+    <servlet-name>userLoginServlet</servlet-name>
+    <servlet-class>servlet.UserLoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userLoginServlet</servlet-name>
+    <url-pattern>/user/page/userLoginServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 注册 -->
+  <servlet>
+    <servlet-name>userRegistServlet</servlet-name>
+    <servlet-class>servlet.UserRegistServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userRegistServlet</servlet-name>
+    <url-pattern>/user/page/userRegistServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 旅游-->
+  <servlet>
+    <servlet-name>allTourServlet</servlet-name>
+    <servlet-class>servlet.AllTourServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>allTourServlet</servlet-name>
+    <url-pattern>/user/page/AllTourServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 详情 -->
+  <servlet>
+    <servlet-name>detailServlet</servlet-name>
+    <servlet-class>servlet.DetailTourServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>detailServlet</servlet-name>
+    <url-pattern>/user/page/DetailTourServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 退出-->
+  <servlet>
+    <servlet-name>userLogOutServlet</servlet-name>
+    <servlet-class>servlet.UserLogOutServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>userLogOutServlet</servlet-name>
+    <url-pattern>/user/page/userLogOutServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 检查密码-->
+  <servlet>
+    <servlet-name>checkUpwdServlet</servlet-name>
+    <servlet-class>servlet.CheckUpwdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkUpwdServlet</servlet-name>
+    <url-pattern>/user/page/checkUpwdServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 检查用户名 -->
+  <servlet>
+    <servlet-name>checkUnameServlet</servlet-name>
+    <servlet-class>servlet.CheckUnameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkUnameServlet</servlet-name>
+    <url-pattern>/user/page/userCheckUnameServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 检查邮箱-->
+  <servlet>
+    <servlet-name>checkEmailServlet</servlet-name>
+    <servlet-class>servlet.CheckEmailServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkEmailServlet</servlet-name>
+    <url-pattern>/user/page/userCheckEmailServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 检查手机号码-->
+  <servlet>
+    <servlet-name>checkPhoneServlet</servlet-name>
+    <servlet-class>servlet.CheckPhoneServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>checkPhoneServlet</servlet-name>
+    <url-pattern>/user/page/userCheckPhoneServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 用户名检查-->
+  <servlet>
+    <servlet-name>UnameCheckServlet</servlet-name>
+    <servlet-class>servlet.UnameCheckServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UnameCheckServlet</servlet-name>
+    <url-pattern>/user/page/userUnameCheckServlet</url-pattern>
+  </servlet-mapping>
+  <!-- 检查密码 -->
+  <servlet>
+    <servlet-name>UserChangePwd</servlet-name>
+    <servlet-class>servlet.UserChangePwdServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserChangePwd</servlet-name>
+    <url-pattern>/user/page/userChangePwd</url-pattern>
+  </servlet-mapping>
+  <!-- message -->
+  <servlet>
+    <servlet-name>NewMessageServlet</servlet-name>
+    <servlet-class>servlet.NewMessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>NewMessageServlet</servlet-name>
+    <url-pattern>/user/page/NewMessage</url-pattern>
+  </servlet-mapping>
+   <!-- show message -->
+  <servlet>
+    <servlet-name>MessageServlet</servlet-name>
+    <servlet-class>servlet.MessageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MessageServlet</servlet-name>
+    <url-pattern>/user/page/MessageServlet</url-pattern>
+  </servlet-mapping>
+   <!-- bus message -->
+  <servlet>
+    <servlet-name>AllBusServlet</servlet-name>
+    <servlet-class>servlet.AllBusServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllBusServlet</servlet-name>
+    <url-pattern>/user/page/BUSQ</url-pattern>
+  </servlet-mapping>
+     <!-- tran message -->
+  <servlet>
+    <servlet-name>AllTrainServlet</servlet-name>
+    <servlet-class>servlet.AllTrainServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllTrainServlet</servlet-name>
+    <url-pattern>/user/page/TRAINQ</url-pattern>
+  </servlet-mapping>
+       <!-- bue_route message -->
+  <servlet>
+    <servlet-name>AllBusRouteServlet</servlet-name>
+    <servlet-class>servlet.AllBusRouteServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AllBusRouteServlet</servlet-name>
+    <url-pattern>/user/page/BQ</url-pattern>
+  </servlet-mapping>
+</web-app>

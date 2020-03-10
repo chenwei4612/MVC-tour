@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="pojo.Tour"/>
+<fullyQualifiedTypeName name="pojo.User"/>
+<fullyQualifiedTypeName name="pojo.Message"/>
+<fullyQualifiedTypeName name="pojo.Mess"/>
+<fullyQualifiedTypeName name="dao.Message"/>
+<fullyQualifiedTypeName name="servlet.MessageServlet"/>
+<fullyQualifiedTypeName name="dao.BusDao"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="pojo.Bus"/>
+<fullyQualifiedTypeName name="pojo.Tran"/>
+<fullyQualifiedTypeName name="dao.TranDao"/>
+<fullyQualifiedTypeName name="pojo.Train"/>
+<fullyQualifiedTypeName name="pojo.BusRoute"/>
+<fullyQualifiedTypeName name="dao.BusRouteDao"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+</qualifiedTypeNameHistroy>

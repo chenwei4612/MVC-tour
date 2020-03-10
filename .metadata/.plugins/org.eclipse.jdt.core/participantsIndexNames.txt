@@ -1,0 +1,5 @@
+INDEX VERSION 1.126
+C:\Users\Administrator\Desktop\0604\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1740820805.index
+\tour
+C:\Users\Administrator\Desktop\0604\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1806802816.index
+\tour
